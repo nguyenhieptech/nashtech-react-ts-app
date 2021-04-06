@@ -1,0 +1,31 @@
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	width: 200px;
+	height: 100px;
+	background-color: #eee;
+	border-radius: 10%;
+}
+
+.card__icon {
+	padding-right: 10px;
+	font-size: 3rem;
+	color: aqua;
+}
+
+.card__number {
+	font-size: 2rem;
+	font-style: bold;
+}
+
+.card__operator {
+	font-size: 2rem;
+	font-style: bold;
+}
+
+.card__title {
+	color: #aaa;
+	font-size: 0.8rem;
+}

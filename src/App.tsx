@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import Card from './components/Card';
+import Price from './components/Price';
 import './App.css';
+import { listCard } from './components/Card/ListCard';
+import { listPrice } from './components/Price/ListPrice';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<div className='card-container'>
+				{listCard.map((item) => (
+					<Card
+						icon={item.icon}
+						number={item.number}
+						operator={item.operator}
+						title={item.title}
+					/>
+				))}
+			</div>
+
+			{/* Not finished Price component yet */}
+			<div className='price-container'>
+				{/* {listPrice.map((item) => (
+					<Price
+						icon={item.icon}
+						title={item.title}
+						price={}
+						taxes={}
+						extraInfo={}
+					/>
+				))} */}
+			</div>
+		</div>
+	);
 }
 
 export default App;
