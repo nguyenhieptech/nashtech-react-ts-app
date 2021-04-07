@@ -1,0 +1,20 @@
+.notification {
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+  width: 370px;
+  margin: 10px 10px 0px 0px;
+}
+
+.notification__settings {
+  margin-bottom: 30px;
+}
+
+.notification__info--title {
+  font-weight: bold;
+  font-size: large
+}
+
+.notification__info--selection {
+  color: #bbb;
+}

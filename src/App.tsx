@@ -1,8 +1,9 @@
-import Card from './components/Card';
-import Price from './components/Price';
+import Card from './components/card';
+import Price from './components/price';
 import './App.css';
-import { listCard } from './components/Card/ListCard';
-import { listPrice } from './components/Price/ListPrice';
+import { listCard } from './components/card/ListCard';
+import { listPrice } from './components/price/ListPrice';
+import Notifications from './components/notifications';
 
 function App() {
 	return (
@@ -29,6 +30,10 @@ function App() {
 						extraInfo={}
 					/>
 				))} */}
+			</div>
+
+			<div className="notifications-container">
+				<Notifications />
 			</div>
 		</div>
 	);

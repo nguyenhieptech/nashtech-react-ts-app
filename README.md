@@ -2,12 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Demo exercise 1 - 6/4/2021
+<img src="demo-pictures/demo-card.png" />
 
-# See demo in src/demo-card.png
+## Demo exercise 2 - 7/4/2021
+<img src="demo-pictures/demo-notifications.png" />
